@@ -1,0 +1,61 @@
+html, body {
+    background-color:#E9ECEF;
+}
+
+#userBtnContainer {
+    min-height:250px;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    margin: 2px;
+  }
+  
+.card-footer{
+    font-size:1em;
+    color:rgb(41, 40, 40);
+}
+
+.fa-ticket{
+    color:MediumSeaGreen;
+}
+
+.fa-users{
+    color:DodgerBlue;
+}
+
+button:hover .fa-users{
+    color:white;
+    background-color:DodgerBlue;
+}
+
+button:hover .fa-ticket{
+    color:white;
+    background-color:MediumSeaGreen;
+}
+
+.button:hover{
+    color:#ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+button {
+    border:none;
+}
+
+.autofill_container{
+    max-height:150px;
+    width:max-content;
+    overflow:hidden;
+}
+
+#myTable {
+    border-collapse:collapse;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
